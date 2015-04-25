@@ -1,0 +1,8 @@
+1-A position shows when a motor is moved in Ophyd using mov or movr command. Sometimes it shows the end position after the moving is completed (which it should do) but sometimes it doesn't.
+2-Sometime the scan dies during a long scan. Couldn't even quit using Ctrl-c. Ken may already reported the problem.
+3- When displaying the data, the first date and time column take too much space. It is not necessary to show the date for all the data points. Also, the data column should be aligned with the name. Sometimes it is very confusing if they are not aligned.
+4- Please add a column to show the number of data points so we know where we are during a long scan.
+5-When using automatic update in replay, the whole program seems to be frozen and has extremely slow response to any operation. 
+6-When displaying the data in replay, it is preferred to set the scanned motor as the default x axis, not the index.
+7-Suggest to add FWHM, CEN, Peak position,... these statistics to the figure  
+8-It's preferred to have error bar added to the plot 
